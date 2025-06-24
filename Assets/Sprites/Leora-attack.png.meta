@@ -1,28 +1,34 @@
 fileFormatVersion: 2
-guid: 9a908849115e8bf45bb281f1eb5cc73c
+guid: 0693b71335e564647b37fba271b6bfd0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8932550570701721305
-    second: Leora-running_0
+      213: -8549526715254127911
+    second: Leora-attack_0
   - first:
-      213: 817507681033730836
-    second: Leora-running_1
+      213: -5710780029719783639
+    second: Leora-attack_1
   - first:
-      213: -3648334008080645540
-    second: Leora-running_2
+      213: -4699352009778050851
+    second: Leora-attack_2
   - first:
-      213: 467403071899202792
-    second: Leora-running_3
+      213: -1978099162895238374
+    second: Leora-attack_3
   - first:
-      213: -2800795105452567426
-    second: Leora-running_4
+      213: -2780055955913234720
+    second: Leora-attack_4
   - first:
-      213: 6162567948632663347
-    second: Leora-running_5
+      213: -7004558256663212678
+    second: Leora-attack_5
   - first:
-      213: -2592784399360825770
-    second: Leora-running_6
+      213: 535912119540040331
+    second: Leora-attack_6
+  - first:
+      213: -5618074495683710386
+    second: Leora-attack_7
+  - first:
+      213: -4735944966842719942
+    second: Leora-attack_8
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -69,7 +75,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 310
+  spritePixelsToUnits: 170
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -93,7 +99,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -118,155 +124,199 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Leora-running_0
+      name: Leora-attack_0
       rect:
         serializedVersion: 2
-        x: 129
-        y: 1279
-        width: 432
-        height: 592
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 120
+        y: 920
+        width: 225
+        height: 305
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7217c172594390480800000000000000
-      internalID: -8932550570701721305
+      spriteID: 9d2c093ffbaf95980800000000000000
+      internalID: -8549526715254127911
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Leora-running_1
+      name: Leora-attack_1
       rect:
         serializedVersion: 2
-        x: 779
-        y: 1279
-        width: 402
-        height: 592
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 560
+        y: 920
+        width: 270
+        height: 305
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 41b3b2197ee585b00800000000000000
-      internalID: 817507681033730836
+      spriteID: 927582ae1db3fb0b0800000000000000
+      internalID: -5710780029719783639
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Leora-running_2
+      name: Leora-attack_2
       rect:
         serializedVersion: 2
-        x: 1379
-        y: 1279
-        width: 452
-        height: 612
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1040
+        y: 920
+        width: 250
+        height: 305
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c524062ac838e5dc0800000000000000
-      internalID: -3648334008080645540
+      spriteID: dd849aece3c88ceb0800000000000000
+      internalID: -4699352009778050851
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Leora-running_3
+      name: Leora-attack_3
       rect:
         serializedVersion: 2
-        x: 19
-        y: 669
-        width: 572
-        height: 592
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 100
+        y: 460
+        width: 270
+        height: 305
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8e47a731e9c8c7600800000000000000
-      internalID: 467403071899202792
+      spriteID: a1bb121ba416c84e0800000000000000
+      internalID: -1978099162895238374
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Leora-running_4
+      name: Leora-attack_4
       rect:
         serializedVersion: 2
-        x: 739
-        y: 639
-        width: 422
-        height: 612
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 575
+        y: 460
+        width: 305
+        height: 305
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e74d8dad0b39129d0800000000000000
-      internalID: -2800795105452567426
+      spriteID: 0e6251466d14b69d0800000000000000
+      internalID: -2780055955913234720
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Leora-running_5
+      name: Leora-attack_5
       rect:
         serializedVersion: 2
-        x: 1399
-        y: 639
-        width: 392
-        height: 622
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1035
+        y: 460
+        width: 315
+        height: 305
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 335257a06e6d58550800000000000000
-      internalID: 6162567948632663347
+      spriteID: a7d4f07906fcace90800000000000000
+      internalID: -7004558256663212678
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Leora-running_6
+      name: Leora-attack_6
       rect:
         serializedVersion: 2
-        x: 59
-        y: 39
-        width: 482
-        height: 562
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 115
+        y: 0
+        width: 325
+        height: 305
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6566ce07354940cd0800000000000000
-      internalID: -2592784399360825770
+      spriteID: b82c20cbb31ff6700800000000000000
+      internalID: 535912119540040331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leora-attack_7
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 0
+        width: 335
+        height: 305
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e42371313079802b0800000000000000
+      internalID: -5618074495683710386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leora-attack_8
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 0
+        width: 345
+        height: 305
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a316a8f052b864eb0800000000000000
+      internalID: -4735944966842719942
       vertices: []
       indices: 
       edges: []
@@ -275,7 +325,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: eb3befbcba6aa0e44bf90d2303ec5944
     internalID: 0
     vertices: []
     indices: 
@@ -285,13 +335,15 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Leora-running_0: -8932550570701721305
-      Leora-running_1: 817507681033730836
-      Leora-running_2: -3648334008080645540
-      Leora-running_3: 467403071899202792
-      Leora-running_4: -2800795105452567426
-      Leora-running_5: 6162567948632663347
-      Leora-running_6: -2592784399360825770
+      Leora-attack_0: -8549526715254127911
+      Leora-attack_1: -5710780029719783639
+      Leora-attack_2: -4699352009778050851
+      Leora-attack_3: -1978099162895238374
+      Leora-attack_4: -2780055955913234720
+      Leora-attack_5: -7004558256663212678
+      Leora-attack_6: 535912119540040331
+      Leora-attack_7: -5618074495683710386
+      Leora-attack_8: -4735944966842719942
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

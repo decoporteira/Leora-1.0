@@ -3,30 +3,13 @@ public class PlayerMoviment : MonoBehaviour
 {
     [SerializeField] float speed = 5f;
     private Vector2 movement;
-    private Vector2 screenBounds;
     [SerializeField] Animator animator;
-    public float wallJumpCooldown { get; set; }
-    private void Start()
-    {
-        screenBounds = Camera.main.ScreenToWorldPoint(new Vector3(Screen.width, Screen.height));
-       
-    }
     void Update()
     {
-
-        HandleMovement();
-        ClampMovement();
-
-        if (wallJumpCooldown >0f)
-        {
-            wallJumpCooldown -= Time.deltaTime;
-        }
-      
-       
+        HandleMovement();  
     }
     private void HandleMovement()
-    {
-        if (wallJumpCooldown > 0f) return;
+    {   
         float input = Input.GetAxis("Horizontal");
         movement.x = input * speed * Time.deltaTime;
         transform.Translate(movement);
@@ -50,11 +33,4 @@ public class PlayerMoviment : MonoBehaviour
 
     }
 
-    private void ClampMovement()
-    {
-        float clampX = Mathf.Clamp(transform.position.x, -screenBounds.x, screenBounds.x);
-        Vector2 pos = transform.position;
-        pos.x = clampX;
-        transform.position = pos;
-    }
 }
