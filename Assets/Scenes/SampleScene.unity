@@ -348,10 +348,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   jump: 350
   boxSize: {x: 0.82, y: 0.35}
-  castDistance: 0.04
+  castDistance: 0.06
   groundLayer:
     serializedVersion: 2
     m_Bits: 64
+  animator: {fileID: 139641620}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0

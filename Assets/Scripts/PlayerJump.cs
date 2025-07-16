@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using UnityEngine;
 
@@ -8,15 +9,19 @@ public class PlayerJump : MonoBehaviour
     public Vector2 boxSize;
     public float castDistance;
     public LayerMask groundLayer;
+    [SerializeField] Animator animator;
 
     void Start()
     {
-       rb = GetComponent<Rigidbody2D>();
+        animator.SetBool("isJumping", false);
+        rb = GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
     void Update()
     {
+        animator.SetFloat("yVelocity", rb.linearVelocity.y);
+        animator.SetBool("isJumping", !isGrounded());
         if (Input.GetButtonDown("Jump") && isGrounded())
         {
             Jump();
@@ -25,26 +30,21 @@ public class PlayerJump : MonoBehaviour
 
     void Jump()
     {
-        Debug.Log("Player jumped!");
+        animator.SetBool("isJumping", true);
         rb.AddForce(new Vector2(rb.linearVelocity.x, jump));
+       
 
     }
 
     public bool isGrounded()
     {
-        if (Physics2D.BoxCast(transform.position, boxSize, 0, -transform.up, castDistance, groundLayer))
-        {
-            return true;
-        }
-        else
-        {
-            return false;
-        }
+        return Physics2D.BoxCast(transform.position, boxSize, 0, -transform.up, castDistance, groundLayer);
+
 
     }
     private void OnDrawGizmosSelected()
     {
-        Gizmos.color = Color.red;
+       Gizmos.color = Color.red;
        Gizmos.DrawWireCube(transform.position -transform.up * castDistance, boxSize);
     }
 }
