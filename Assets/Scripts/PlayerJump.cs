@@ -10,11 +10,14 @@ public class PlayerJump : MonoBehaviour
     public float castDistance;
     public LayerMask groundLayer;
     [SerializeField] Animator animator;
+     [SerializeField] private AudioClip jumpSound;
+    private AudioSource audioSource;
 
     void Start()
     {
         animator.SetBool("isJumping", false);
         rb = GetComponent<Rigidbody2D>();
+        audioSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -31,7 +34,9 @@ public class PlayerJump : MonoBehaviour
     void Jump()
     {
         animator.SetBool("isJumping", true);
+
         rb.AddForce(new Vector2(rb.linearVelocity.x, jump));
+        audioSource.PlayOneShot(jumpSound);
        
 
     }
