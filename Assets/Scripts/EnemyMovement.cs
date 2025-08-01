@@ -7,6 +7,6 @@ public class EnemyMovement : MonoBehaviour
 
     void Update()
     {
-        rb.linearVelocity = -Vector2.left * enemySpeed;
+        rb.linearVelocity = transform.right * enemySpeed;
     }
 }

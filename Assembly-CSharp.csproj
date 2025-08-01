@@ -65,6 +65,7 @@
     <Compile Include="Assets\FastScriptReload\Samples\Basic\Scripts\Graph.cs" />
     <Compile Include="Assets\FastScriptReload\Samples\Basic\Scripts\FunctionLibrary.cs" />
     <Compile Include="Assets\Scripts\PlayerMoviment.cs" />
+    <Compile Include="Assets\Scripts\TurnEnemy.cs" />
     <Compile Include="Assets\Scripts\PlayerAttack.cs" />
     <Compile Include="Assets\Scripts\PlayerJump.cs" />
   </ItemGroup>

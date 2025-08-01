@@ -85,7 +85,6 @@
     <Compile Include="Packages\com.merry-yellow.code-assist\Editor\Input\InputManagerMonitor.cs" />
     <Compile Include="Packages\com.merry-yellow.code-assist\Editor\StatusWindow.cs" />
     <Compile Include="Packages\com.merry-yellow.code-assist\Editor\AboutWindow.cs" />
-    <Compile Include="Packages\com.merry-yellow.code-assist\Editor\SelfDeletingScript.cs" />
     <Compile Include="Packages\com.merry-yellow.code-assist\Editor\Assister.cs" />
     <Compile Include="Packages\com.merry-yellow.code-assist\Editor\MQTTnetPublisher.cs" />
     <Compile Include="Packages\com.merry-yellow.code-assist\Editor\Logger\UnitySink.cs" />
