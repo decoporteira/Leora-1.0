@@ -7,7 +7,6 @@ public class FlipEnemy : MonoBehaviour
         if (obj.tag == "Enemy")
         {
             obj.transform.Rotate(0f, 180f, 0f);
-
         }
     }
 }
