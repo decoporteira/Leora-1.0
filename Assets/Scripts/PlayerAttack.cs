@@ -17,6 +17,7 @@ public class PlayerAttack : MonoBehaviour
     void Attack()
     {
         Debug.Log("Player attacked!");
+
         animator.SetTrigger("attack");
 
     }

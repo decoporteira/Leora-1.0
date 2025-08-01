@@ -85,6 +85,7 @@
     <Compile Include="Packages\com.merry-yellow.code-assist\Editor\Input\InputManagerMonitor.cs" />
     <Compile Include="Packages\com.merry-yellow.code-assist\Editor\StatusWindow.cs" />
     <Compile Include="Packages\com.merry-yellow.code-assist\Editor\AboutWindow.cs" />
+    <Compile Include="Packages\com.merry-yellow.code-assist\Editor\SelfDeletingScript.cs" />
     <Compile Include="Packages\com.merry-yellow.code-assist\Editor\Assister.cs" />
     <Compile Include="Packages\com.merry-yellow.code-assist\Editor\MQTTnetPublisher.cs" />
     <Compile Include="Packages\com.merry-yellow.code-assist\Editor\Logger\UnitySink.cs" />
@@ -667,6 +668,10 @@
     </Reference>
     <Reference Include="Meryel.UnityCodeAssist.MQTTnet.Extensions.ManagedClient">
       <HintPath>Packages\com.merry-yellow.code-assist\Editor\ExternalReferences\Meryel.UnityCodeAssist.MQTTnet.Extensions.ManagedClient.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe">
+      <HintPath>Assets\FastScriptReload\Plugins\Roslyn\2021+\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Meryel.UnityCodeAssist.MQTTnet">

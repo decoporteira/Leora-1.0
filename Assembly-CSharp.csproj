@@ -61,9 +61,39 @@
     <Analyzer Include="D:\deco\GameDev\Uniy_versions\6000.0.50f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\EnemyMovement.cs" />
+    <Compile Include="Assets\FastScriptReload\Samples\Basic\Scripts\Graph.cs" />
+    <Compile Include="Assets\FastScriptReload\Samples\Basic\Scripts\FunctionLibrary.cs" />
     <Compile Include="Assets\Scripts\PlayerMoviment.cs" />
     <Compile Include="Assets\Scripts\PlayerAttack.cs" />
     <Compile Include="Assets\Scripts\PlayerJump.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\FastScriptReload\Plugins\Roslyn\2019+\RoslynLicense.txt" />
+    <None Include="Assets\FastScriptReload\Plugins\Roslyn\2021+\System.Collections.Immutable.FSR.dll" />
+    <None Include="Assets\FastScriptReload\Plugins\Harmony\HarmonyLicense.txt" />
+    <None Include="Assets\FastScriptReload\Plugins\ImmersiveVrToolsCommon\ImmersiveVRTools.Common.Runtime.dll" />
+    <None Include="Assets\FastScriptReload\Plugins\Roslyn\2021+\Microsoft.CodeAnalysis.CSharp.dll" />
+    <None Include="Assets\FastScriptReload\Plugins\Roslyn\2021+\System.Threading.Tasks.Extensions.dll" />
+    <None Include="Assets\FastScriptReload\Plugins\Roslyn\2019+\System.Reflection.Metadata.dll" />
+    <None Include="Assets\FastScriptReload\Plugins\ImmersiveVrToolsCommon\ImmersiveVRToolsCommonLicense.txt" />
+    <None Include="Assets\FastScriptReload\Plugins\Roslyn\2021+\System.Reflection.Metadata.dll" />
+    <None Include="Assets\FastScriptReload\Plugins\Roslyn\Microsoft.CSharp.dll.IMPORTANT.txt.txt" />
+    <None Include="Assets\FastScriptReload\Samples\Basic\Point\Point Surface.shader" />
+    <None Include="Assets\FastScriptReload\Plugins\Roslyn\2019+\Microsoft.CodeAnalysis.dll" />
+    <None Include="Assets\FastScriptReload\Plugins\Roslyn\2021+\System.Runtime.CompilerServices.Unsafe.xml" />
+    <None Include="Assets\FastScriptReload\Plugins\Roslyn\2021+\RoslynLicense.txt" />
+    <None Include="Assets\FastScriptReload\Plugins\Roslyn\2021+\System.Reflection.Metadata.xml" />
+    <None Include="Assets\FastScriptReload\Plugins\Harmony\net48\0Harmony.dll" />
+    <None Include="Assets\FastScriptReload\Plugins\Harmony\net48\0Harmony.xml" />
+    <None Include="Assets\FastScriptReload\Plugins\Roslyn\2019+\System.Threading.Tasks.Extensions.dll" />
+    <None Include="Assets\FastScriptReload\Plugins\Roslyn\2019+\Microsoft.CodeAnalysis.CSharp.dll" />
+    <None Include="Assets\FastScriptReload\Plugins\Roslyn\2021+\Microsoft.CodeAnalysis.dll" />
+    <None Include="Assets\FastScriptReload\Plugins\Roslyn\2021+\System.Runtime.CompilerServices.Unsafe.dll" />
+    <None Include="Assets\FastScriptReload\Plugins\ImmersiveVrToolsCommon\ImmersiveVRTools.Common.Editor.dll" />
+    <None Include="Assets\FastScriptReload\Plugins\Roslyn\Microsoft.CSharp.dll" />
+    <None Include="Assets\FastScriptReload\Plugins\Roslyn\2021+\System.Collections.Immutable.dll" />
+    <None Include="Assets\FastScriptReload\Plugins\Roslyn\2019+\System.Collections.Immutable.dll" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -544,6 +574,10 @@
     </Reference>
     <Reference Include="Mono.Cecil">
       <HintPath>Library\PackageCache\com.unity.nuget.mono-cecil@d6f9955a5d5f\Mono.Cecil.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe">
+      <HintPath>Assets\FastScriptReload\Plugins\Roslyn\2021+\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="netstandard">
@@ -1054,16 +1088,16 @@
       <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.Shared.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.ShaderGraph.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.RenderPipelines.Core.Editor.Shared">
       <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.Shared.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.ShaderGraph.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
